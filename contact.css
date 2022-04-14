@@ -1,0 +1,173 @@
+body{
+    background-color: rgb(189, 228, 203);
+    background-image:url("download.jpg");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.Home:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    
+}
+.Contact-Us:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.brand:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+   font-family: 'Varela Round', sans-serif;
+   display: flex;
+   margin: 23px auto;
+   width: 70%;
+   border-radius: 12px;
+   padding: 34px;
+   background-image: url('bg.jpg');
+}
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.icons{
+    margin-top: 14px; 
+}
+.icons i{
+    cursor: pointer;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+}
+.contactMe{
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-top: 50px;
+    color: aliceblue;
+}
+.contact-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.formname{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.workspace-image{
+    display: flex;
+    justify-content: space-evenly;
+}
+.workspace-image img{
+    height: 230px;
+    margin-left: 100px;
+    margin-top: 60px;
+
+}
+.image-centre img{
+    border-radius: 30%;
+}
+.form-space {
+    height: 300px;
+    width:35vw;
+    border: 3px solid rgb(41, 158, 41);
+    background-color: rgb(13, 3, 3);
+    border-radius: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 15px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-right: 95px;
+}
+
+#fname{
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#lname{
+    padding: 5px;
+    border: 2px solid black;
+    border-radius:20px;
+}
+#email{
+    padding: 5px;
+    border-radius: 20px;
+}
+#submit{
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-size:15px;
+    font-weight: bold;
+
+}
+#submit:hover{
+    background-color: rgba(254, 254, 254, 0.486);
+    transform: scale(1.12);
+}
+.first{
+    margin-bottom: 30px;
+    color: white;
+}
+.last{
+    margin-bottom: 30px;
+    color: white;
+}
+.email{
+    margin-bottom: 30px;
+    color: white;
+    
+}
